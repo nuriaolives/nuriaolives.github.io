@@ -3,22 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-     <link rel="icon" href="../../img/favicon.ico" >
+        <link rel="icon" href="img/favicon.ico" >
     <title>Núria Portafoli</title>
-    <!--JS -->
-             <script src="../../js/jquery.js"></script>
-             <script src="../../js/mediaelement-and-player.js"></script>
-            <!--MEDIAELEMENTPLAYER -->
-             <link rel="stylesheet" href="../../css/mediaplayer/mediaelementplayer.css">
-            <!--PLUGINS -->
-              <!--SkipBack-->
-                <script src="../../plugins/skipback/skip-back-i18n.js"></script>
-                <script src="../../plugins/skipback/skip-back.js"></script>
-                <link href="../../plugins/skipback/skip-back.css" rel="stylesheet">
-              <!--JumpForward-->
-                <script src="../../plugins/jumpforward/jump-forward-i18n.js"></script>
-                <script src="../../plugins/jumpforward/jump-forward.js"></script>
-                <link href="../../plugins/jumpforward/jump-forward.css" rel="stylesheet">
+
     <!-- netejar la pàg per complet (Normalize.css)-->
     <link rel="stylesheet" href="../../css/normalize.css">
 
@@ -36,34 +23,134 @@
 <body>
   <div id="contenidor">
       <div id="contenidor-flex1">
-           <h1 id="contenidor-flex-h1">Núria</h1>
-            <div id="contenidor-flex1-img">Imatge</div>
+           <h1 id="contenidor-flex-h1" style="color: white;">Núria</h1>
+            <div id="contenidor-flex1-img"><img src="../../img/fotoperfil.jpg" style="height:100%; width:100%; object-fit: cover; object-position: center center;"/></div>
             <a href="../../index.html"><div class="contenidor-flex1-bt">Vista General</div></a>
             <a href="habilitats.html"><div class="contenidor-flex1-bt">Habilitats</div></a>
             <a href="../contacte.html"><div class="contenidor-flex1-bt">Contacte</div></a>
            
       </div>
       <div id="contenidor-flex2">
-               <div class="wrapper_video">
-                <video controls poster="img/poster3.jpg" class="video" width="500" height="300" >
-                            <source src="../../vid/videoreel_nuriaolivesbofill.mp4" type="video/mp4">
-                            <source src="../../vid/videoreel_nuriaolivesbofill.webm" type="video/webm">
-                           <source src="../../vid/videoreel_nuriaolivesbofill.ogg" type="video/ogg">
-
-                        </video>
+        <h1 style=" margin: 20px auto; font-size: 50px; background-color: rgba(0,0,0,.20); color: white;  " >Animació 2D i 3D</h1>
+         <ul class="galeria2">
+                    <li><a href="#vid1"><video poster="../../img/habilitats/animacio/poster1.jpg" src="../../img/habilitats/animacio/video1.mp4" alt=""></a></li>
+                     <li><a href="#vid2"><video poster="../../img/habilitats/animacio/poster2.jpg"src="../../img/habilitats/animacio/video2.mp4" alt=""></a></li>
+                    <li><a href="#vid3"><video poster="../../img/habilitats/animacio/poster3.jpg"src="../../img/habilitats/animacio/video3.mp4" alt=""></a></li>
+                      <li><a href="#vid4"><video poster="../../img/habilitats/animacio/poster4.jpg"src="../../img/habilitats/animacio/video4.mp4" alt=""></a></li>
+                       <li><a href="#vid5"><video poster="../../img/habilitats/animacio/poster5.jpg"src="../../img/habilitats/animacio/video5.mp4" alt=""></a></li>
+                        <li><a href="#vid6"><video poster="../../img/habilitats/animacio/poster6.jpg"src="../../img/habilitats/animacio/video6.mp4" alt=""></a></li>
+                         <li><a href="#vid7"><video poster="../../img/habilitats/animacio/poster11.jpg"src="../../img/habilitats/animacio/video7.mp4" alt=""></a></li>
+                           <li><a href="#vid71"><video poster="../../img/habilitats/animacio/poster7.jpg"src="../../img/habilitats/animacio/video7.1.mp4" alt=""></a></li>
+                    <li><a href="#vid72"><video poster="../../img/habilitats/animacio/poster8.jpg"src="../../img/habilitats/animacio/video7.2.mp4" alt=""></a></li>
+                    <li><a href="#vid8"><video poster="../../img/habilitats/animacio/poster9.jpg"src="../../img/habilitats/animacio/video8.mp4" alt=""></a></li>
+                     <li><a href="#vid9"><video poster="../../img/habilitats/animacio/poster10.jpg"src="../../img/habilitats/animacio/video9.mp4" alt=""></a></li>
+</ul>
+                 <!--MODAL -->
+                     <div class="modal2" id="vid1">
+                    <h3>Paisaje1</h3>
+                    <div class="imagen2">
+                        <a href="#vid11">&#60;</a>
+                        <video src="../../img/habilitats/animacio/video1.mp4" controls ></video>
+                        <a href="#vid2">></a>
                     </div>
+                    <a class="cerrar2" href="">X</a>
+                </div>
+                 <div class="modal2" id="vid2">
+                    <h3>Paisaje1</h3>
+                    <div class="imagen2">
+                        <a href="#vid1">&#60;</a>
+                        <video src="../../img/habilitats/animacio/video2.mp4" controls ></video>
+                        <a href="#vid3">></a>
+                    </div>
+                    <a class="cerrar2" href="">X</a>
+                </div>
+                  <div class="modal2" id="vid3">
+                    <h3>Paisaje1</h3>
+                    <div class="imagen2">
+                        <a href="#vid2">&#60;</a>
+                        <video src="../../img/habilitats/animacio/video3.mp4" controls ></video>
+                        <a href="#vid4">></a>
+                    </div>
+                    <a class="cerrar2" href="">X</a>
+                </div>
+           <div class="modal2" id="vid4">
+                    <h3>Paisaje1</h3>
+                    <div class="imagen2">
+                        <a href="#vid3">&#60;</a>
+                        <video src="../../img/habilitats/animacio/video4.mp4" controls ></video>
+                        <a href="#vid5">></a>
+                    </div>
+                    <a class="cerrar2" href="">X</a>
+                </div>
+                  <div class="modal2" id="vid5">
+                    <h3>Paisaje1</h3>
+                    <div class="imagen2">
+                        <a href="#vid4">&#60;</a>
+                        <video src="../../img/habilitats/animacio/video5.mp4" controls ></video>
+                        <a href="#vid6">></a>
+                    </div>
+                    <a class="cerrar2" href="">X</a>
+                </div>
+                     <div class="modal2" id="vid6">
+                    <h3>Paisaje1</h3>
+                    <div class="imagen2">
+                        <a href="#vid5">&#60;</a>
+                        <video src="../../img/habilitats/animacio/video6.mp4" controls ></video>
+                        <a href="#vid7">></a>
+                    </div>
+                    <a class="cerrar2" href="">X</a>
+                </div>
+                       <div class="modal2" id="vid7">
+                    <h3>Paisaje1</h3>
+                    <div class="imagen2">
+                        <a href="#vid6">&#60;</a>
+                        <video src="../../img/habilitats/animacio/video7.mp4" controls ></video>
+                        <a href="#vid8">></a>
+                    </div>
+                    <a class="cerrar2" href="">X</a>
+                </div>
+          
+          <div class="modal2" id="vid71">
+                    <h3>Paisaje1</h3>
+                    <div class="imagen2">
+                        <a href="#vid7">&#60;</a>
+                        <video src="../../img/habilitats/animacio/video7.1.mp4" controls ></video>
+                        <a href="#vid72">></a>
+                    </div>
+                    <a class="cerrar2" href="">X</a>
+                </div>
+          <div class="modal2" id="vid72">
+                    <h3>Paisaje1</h3>
+                    <div class="imagen2">
+                        <a href="#vid71">&#60;</a>
+                        <video src="../../img/habilitats/animacio/video7.2.mp4" controls ></video>
+                        <a href="#vid8">></a>
+                    </div>
+                    <a class="cerrar2" href="">X</a>
+                </div>
+                
+                <div class="modal2" id="vid8">
+                    <h3>Paisaje1</h3>
+                    <div class="imagen2">
+                        <a href="#vid7">&#60;</a>
+                        <video src="../../img/habilitats/animacio/video8.mp4" controls ></video>
+                        <a href="#vid9">></a>
+                    </div>
+                    <a class="cerrar2" href="">X</a>
+                </div><div class="modal2" id="vid9">
+                    <h3>Paisaje1</h3>
+                    <div class="imagen2">
+                        <a href="#vid8">&#60;</a>
+                        <video src="../../img/habilitats/animacio/video9.mp4" controls ></video>
+                        <a href="#vid1">></a>
+                    </div>
+                    <a class="cerrar2" href="">X</a>
+                </div>
+          
+                 
       </div>
   </div>
-     <script>
-            $('video').mediaelementplayer({
-              features:['playpause','tracks','progress','skipback','jumpforward','fullscreen'],
-              startLanguage:'ca',
-              alwaysShowHours:true,
-              timeFormat:'h:mm:ss',
-              skipBackInterval:5,
-              jumpForwardInterval:5,
-          });
-            </script>  
+   
 </body>
 
 </html>
